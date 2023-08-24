@@ -49,14 +49,12 @@ public class Animals {
                         + "1 for grey\n2 for white\n3 for black");
                   code=kb.nextInt();
                   brd.setColor(code);
-                  display();
                   brd.display();
            break;
            case "reptile":
                System.out.println("Enter blood temperature of reptile");
                code=kb.nextDouble();
                rept.setBloodTemp(code);
-               display();
                rept.display();
            break;             
        }    
