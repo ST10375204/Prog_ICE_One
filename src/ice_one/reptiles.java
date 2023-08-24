@@ -17,6 +17,7 @@ public class reptiles extends Animals {
     }
     
     public void display(){
+        super.display();
         System.out.println("Blood Temp: "+bloodTemp+"C");
     }
     
