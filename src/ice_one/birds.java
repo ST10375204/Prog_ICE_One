@@ -18,6 +18,7 @@ public class birds extends Animals{
     
     @Override
     public void display(){
+        super.display();
         switch(color){
             case 1:System.out.println("Color: Grey"); break;
             case 2:System.out.println("Color: White");break;
